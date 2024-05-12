@@ -7,7 +7,7 @@ window.onload = function() {
         // generate a five digit number for the contact_number variable
         this.contact_number.value = Math.random() * 100000 | 0;
         // these IDs from the previous steps
-        emailjs.sendForm("service_bc04337","template_kelvin4z", this)
+        emailjs.sendForm("service_ailuhf4","template_4cv58f3", this)
         .then(function() {
             console.log('SUCCESS!');
             let subscribe = document.getElementById('submit')
